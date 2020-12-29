@@ -536,7 +536,7 @@ label {
 }
 
 .countdown-value {
-  font-size: 25px;
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
   color: #027aff;
@@ -594,4 +594,9 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+@media screen and (max-width:340px){
+  .lgn-btn{
+    margin:2vw;
+  }
 }
