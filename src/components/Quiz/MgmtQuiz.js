@@ -117,7 +117,7 @@ class MgmtQuiz extends React.Component {
 
   componentWillUnmount() {
     this.submitQuiz();
-    window.location.href = "/";
+   //  window.location.href = "/";
   }
 
   render() {
